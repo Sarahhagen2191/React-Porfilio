@@ -1,17 +1,17 @@
+import Header from "./components/Header";
 
+import Main from "./components/Main";
 
 function App() {
+const title = 'React Overview';
+
   return (
-    <div>
-      <header>
-        <h3>Logo</h3>
-        <nav>
-          <a href= "#">Home</a>
-          <a href="#">About me</a>
-        </nav>
-      </header>
-    </div>
-  );
+    <>
+      <Header title={title} />
+
+     <Main title={title} />
+    </>
+  )
 }
 
 export default App;
