@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 
 function App() {
-const title = 'React Overview';
+const title = 'Sarah Hagen';
 
   return (
     <>

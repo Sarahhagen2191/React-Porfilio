@@ -5,6 +5,8 @@ function Header(props) {
         <nav>
           <a href= "#">Home</a>
           <a href="#">About me</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact Me </a>
         </nav>
       </header>
     )
