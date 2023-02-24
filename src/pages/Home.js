@@ -1,6 +1,8 @@
-function Home() {
+import Main from "../components/Main";
+
+function Home(props) {
     return (
-        <h1> Home</h1>
+        <Main title={props.title} />
     )
 
 }
